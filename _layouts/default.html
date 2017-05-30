@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    {% include personal/head.html %}
+    {% include head.html %}
     <body id="cyberRoze" data-spy="scroll" data-target="#navBar">
 
         NavBar
@@ -24,13 +24,13 @@
                         <li><a href="{{ page.uri }}#mentorship">Mentorship</a></li>
                     </ul>
                     <ul class="nav navbar-nav hidden-xs">
-                        <li><a id="logo" href="http://www.hungking.cc/personal">&Omega;</a></li>
+                        <li><a id="logo" href="http://www.hungking.cc">&Omega;</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                     	<li><a href="{{ page.uri }}#vision">Vision</a></li>
                         <li><a href="{{ page.uri }}#onTheNet">On The NET</a></li>
                         <li><a href="{{ page.uri }}#contact">Contact</a></li>
-                        <li{% if page.active == 'list' %} class="active"{% endif %}><a href="/personal/list/">indeex</a></li>
+                        <li{% if page.active == 'list' %} class="active"{% endif %}><a href="/list/">indeex</a></li>
                     </ul>
                 </div>
             </div>
